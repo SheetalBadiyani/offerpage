@@ -1,0 +1,167 @@
+body{padding:0px; margin:0;font-family: 'Roboto', sans-serif;}
+.list-inline>li {display: inline-block;padding-right: 5px !important;padding-left: 5px !important;}
+.nav-center { border-bottom: 1px solid #DDD; box-shadow: 5px 5px 8px #efefef; }
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0;}
+    .nav-tabs > li > a { border: none; color: #4e4e4e; text-transform:uppercase; font-weight:bold; font-family:arial; font-size:16px;}
+        .nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none !important; color: #4e4e4e !important; background: transparent;}
+        .nav-tabs > li > a::after { content: ""; background: #009649; height: 4px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); border-radius:30px; }
+    .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1);}
+.tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
+.tab-pane { padding: 0; }
+.tab-content{padding:13px 15px 0;}
+.card {background: #FFF none repeat scroll 0% 0%; margin-bottom: 30px;}
+.mytab .btn-default {color: #9b9b9b !important; background-color:none !important; border: none !important; font-size:16px; border-bottom:2px solid #dbdfe2 !important;}
+.mytab .btn-warning{border-radius:50px; background:#ff945d; text-transform:uppercase; padding:8px 18px; font-size:15px;}
+.top-pad{margin-top:18px;}
+.top-pad img {padding-top:23%;}
+.top-pad h3, .top-pad-inner h3{ font-size:19px;}
+.top-pad h4, .top-pad-inner h4{ font-size:17px;}
+.top-pad h4:nth-child(3), .top-pad-inner h4:nth-child(3) {color: #ff945d;}
+.bottom{margin-top:54px;}
+.box-shadow{box-shadow: 4px 4px 10px #e3e3e3; border:1px solid #e5e4e4; padding:10px 25px 10px 10px; border-radius:8px;}
+.bor-left{border-left:1px solid #dfdfdf;}
+.nav-tabs>li {float: left;margin-bottom: -7px !important;}
+
+.nav-center {  text-align: center; margin:0 !important; padding:0 !important;}
+.nav-center  ul.nav {display: inline-block;}
+.nav-center  li {display: inline;}
+.nav-center a {float: left;}
+.nav-tabs { border-bottom:none !important;}
+.box-shadow-bottom{ border-bottom: 1px solid #DDD;box-shadow: 0px 5px 8px #efefef;}
+.middle-text{color:#faa66a; text-align:center; font-size:26px; font-weight:bold; margin-top:5px !important;}
+.list ul{margin:0 20px; padding:0 0 0 10px;}
+.list ul li{ text-align:justify; font-size:12px; font-weight:normal; color:#7a7a7a; padding-bottom:10px; font-family:arial;}
+.list h4{font-size:14px; font-weight:bold; color:#858181; padding-left:15px;}
+.caret{margin-left: 45px !important}
+.star img:first-child {visibility:hidden;}
+.star a img {visibility:visible !important;}
+
+
+@media (min-width: 320px) and (max-width: 449px) { 
+
+      .top-pad img, .top-pad-inner img{padding-top:15%;}
+      .top-pad h3, .top-pad-inner h3{ font-size:11px; margin:7px 0}
+      .top-pad h4, .top-pad-inner h4{ font-size:10px; margin:7px 0}
+	  .bottom{margin-top:10px;}
+	  .box-shadow{padding:5px 10px 0px 10px}
+	  .mytab .btn-warning{padding:3px 4px; font-size:11px;}
+	  .nav-tabs > li > a {font-size:11px;}
+	  .mytab .btn-default {font-size:14px; padding:0 !important}
+	  .star img{position:relative; right:10px;}
+	  .top-pad .col-xs-1{ padding-right:0; padding-left:0}
+	   .list-inline>li {display: inline-block;padding-right: 5px !important;padding-left: 5px !important;}
+	   .middle-text{font-size:14px; padding:0 10px;}
+
+}
+
+@media (min-width: 410px) and (max-width: 449px) { 
+
+.list-inline>li {display: inline-block;padding-right: 16px !important;padding-left: 16px !important;}
+
+}
+
+
+ @media only screen and (min-width: 450px) {
+	
+	  .top-pad img{padding-top:20%;}
+	  .top-pad-inner img{padding-top:8%;}
+      .top-pad h3, .top-pad-inner h3{ font-size:14px; margin:7px 0}
+      .top-pad h4, .top-pad-inner h4{ font-size:12px; margin:7px 0}
+	  .bottom{margin-top:13px;}
+	  .box-shadow{padding:5px 15px 0px 10px}
+	  .mytab .btn-warning{padding:6px 7px; font-size:13px;}
+	  .nav-tabs > li > a {font-size:14px;}
+	  .top-pad .col-xs-1{ padding-right:0; padding-left:0}
+	  .list-inline>li {display: inline-block;padding-right: 5px !important;padding-left: 5px !important;}
+	  .middle-text{font-size:14px;  padding:0 10px;}
+	
+	
+}
+
+
+ 
+ @media only screen and (min-width: 550px) {
+	
+	  .top-pad img{padding-top:15%;}
+	  .top-pad-inner img{padding-top:8%;}
+      .top-pad h3.top-pad-inner h3{ font-size:17px; margin:10px 0}
+      .top-pad h4, .top-pad-inner h4{ font-size:15px;margin:10px 0}
+	  .bottom{margin-top:30px;}
+	  .box-shadow{padding:5px 10px 0px 10px}
+	  .mytab .btn-warning{padding:5px 15px; font-size:14px;}
+	  .top-pad .col-xs-1{ padding-right:0; padding-left:0}
+	  .list-inline>li {display: inline-block;padding-right: 25px !important;padding-left: 25px !important;}
+	  .middle-text{font-size:16px;  padding:0 10px;}
+	
+}
+ 
+
+@media only screen and (min-width: 650px) {
+	
+	  .top-pad img{padding-top:8%;}
+	  .top-pad-inner img{padding-top:5%;}
+      .top-pad h3, .top-pad-inner h3{ font-size:18px; margin:10px 0}
+      .top-pad h4, .top-pad-inner h4{ font-size:16px; margin:10px 0}
+	  .bottom{margin-top:45px;}
+	  .box-shadow{padding:5px 20px 0px 10px}
+	  .mytab .btn-warning{padding:5px 15px; font-size:12px;}
+	  .top-pad .col-xs-1{ padding-right:15px; padding-left:15px}
+	  .list-inline>li {display: inline-block;padding-right: 25px !important;padding-left: 25px !important;}
+	   .middle-text{font-size:19px;  padding:0 10px;}
+	
+} 
+
+
+@media only screen and (min-width: 768px) {
+	
+	 .top-pad img{padding-top:7%;}
+	 .top-pad-inner img{padding-top:5%;}
+	 .top-pad-inner img{padding-top:5%;}
+     .top-pad h3, .top-pad-inner h3{ font-size:18px;}
+     .top-pad h4, .top-pad-inner h4{ font-size:16px;}
+	 .bottom{margin-top:45px;}
+	 .box-shadow{padding:5px 10px 0px 10px}
+	 .mytab .btn-warning{padding:8px 18px; font-size:15px;}
+	 .top-pad .col-xs-1{ padding-right:15px; padding-left:15px}
+	 .middle-text{font-size:22px;  padding:0 0;}
+	
+	
+	
+} 
+
+
+@media only screen and (min-width: 992px) {
+	
+	
+    .top-pad img{padding-top:35%;}
+	.top-pad-inner img{padding-top:5%;}
+    .top-pad h3, .top-pad-inner h3{ font-size:17px;}
+    .top-pad h4, .top-pad-inner h4{ font-size:15px;}
+	.bottom{margin-top:60px;}
+	.box-shadow{padding:10px 30px 10px 10px}
+	.mytab .btn-warning{padding:8px 18px; font-size:15px;}
+	.top-pad .col-xs-1{ padding-right:15px; padding-left:15px}
+	.middle-text{font-size:26px;  padding:0 0;}
+	
+ 
+ 
+} 
+
+
+@media only screen and (min-width: 1200px) {
+	
+	
+    .top-pad img{padding-top:23%;}
+    .top-pad h3, .top-pad-inner h3{ font-size:19px;}
+    .top-pad h4, .top-pad-inner h4{ font-size:17px;}
+	.bottom{margin-top:64px;}
+	.box-shadow{padding:10px 20px 10px 10px}
+	.mytab .btn-warning{padding:8px 18px; font-size:15px;}
+	.nav-tabs > li > a {font-size:16px;}
+	.mytab .btn-default {font-size:16px;}
+	.top-pad .col-xs-1{ padding-right:15px; padding-left:15px}
+	.middle-text{font-size:26px;  padding:0 0;}
+ 
+}
+	
+	
